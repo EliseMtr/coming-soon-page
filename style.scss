@@ -1,0 +1,176 @@
+body {
+    margin:0;
+    padding:0;
+    background-image: url('./Images/soapy-texture.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    .coming-soon-page {
+        background-color: rgba(0, 0, 0, 0.253);
+        height:100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+            @media screen and (max-width: 765px) {
+                display: flex;
+                flex-direction: column;
+            }
+        .accueil {
+            width: 45%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            @media screen and (max-width: 765px) {
+                width: 100%;
+                height: 45vh;
+            }
+            .comingsoon {
+                width: 95%;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                color: #ffffff;
+                @media screen and (max-width: 765px) {
+                    width: 100%;
+                    height: 45vh;
+                }
+                h1 {
+                    font-family: 'Noto Serif';
+                    font-size: 120px;
+                    text-transform: uppercase;
+                    line-height: 50px;
+                    @media screen and (max-width: 765px) {
+                        font-size: 60px;
+                    }
+                }
+                h2 {
+                    font-family: 'Noto Serif';
+                    font-size: 105px;
+                    text-transform: uppercase;
+                    margin: 0;
+                    line-height: 30px;
+                    margin-top: -10%;
+                    @media screen and (max-width: 765px) {
+                        font-size: 45px;
+                    }
+                    
+                    #is {
+                        font-family: 'montserrat';
+                        font-size: 20px;
+                        line-height: 0px;
+                        margin-top: 80%;
+                        text-transform: initial;
+                    }
+                    #very {
+                        font-family: 'montserrat';
+                        font-size: 20px;
+                        line-height: 40px;
+                        text-transform: initial;
+                    }
+                    #coming {
+                        font-family: 'Noto Serif';
+                        font-size: 150px;
+                        line-height: 180px;
+                    }
+                }
+                .form {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    margin: 5% 0;
+                    width: 80%;
+                    form {
+                        width: 180%;
+                        input {
+                            width: 90%;
+                            height: 40px;
+                            border-radius: 10px;
+                            border: none;
+                            padding-left: 15px;
+                            font-family: 'montserrat';
+                            font-size: 14px;
+                            color: #2f2f2f;
+                        }
+                    }
+                    button {
+                        width: 130%;
+                        height: 40px;
+                        border-radius: 10px;
+                        border: none;
+                        background-color: #ffffff;
+                        font-family: 'montserrat';
+                        font-size: 14px;
+                        a {
+                            text-decoration: none;
+                            color: #2f2f2f;
+                        }
+                    }
+                }
+            }
+        }
+        .bulle {
+            width: 48%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @media screen and (max-width: 765px) {
+                width: 100%;
+                height: 45vh;
+            }
+            .content-bulle{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 80vh;
+                height: 78vh;
+                border-radius: 50%;
+                background-color:rgba(240, 240, 240, 0.322);
+                text-align:initial;
+                color: #2f2f2f;
+                p{
+                   font-family: 'montserrat'; 
+                   font-weight: 600;
+                   font-size: 30px;
+                   line-height: 0;
+                   margin-left: -52%;
+                }
+                #countdown {
+                    ul {
+                        list-style: none;
+                        li{
+                            font-family: 'montserrat'; 
+                            font-weight: 600;
+                            font-size: 30px;
+                            #days {
+                                font-family: 'Noto Serif';
+                                font-size: 450px;
+                                line-height: 250px;
+                                letter-spacing: -15px;
+                            }
+                        }
+                    }
+                }
+                h3 {
+                    font-family: 'montserrat';
+                    font-weight: 600;
+                }
+                #reseaux {
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-around;
+                    width: 40%;
+                    font-size: 32px;
+                    a {
+                        text-decoration: none;
+                        color: #2f2f2f;
+                    }
+                }
+            }
+        }
+    }
+}
